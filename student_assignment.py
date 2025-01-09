@@ -35,7 +35,7 @@ def generate_hw01(question):
     不要顯示'''json字串"
                          f"{format_instructions}, 使用台灣語言")
     #print(response.content)
-    return response.content
+    return response
     
 def generate_hw02(question):
     pass
