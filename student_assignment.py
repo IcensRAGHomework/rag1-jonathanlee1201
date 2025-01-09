@@ -66,5 +66,5 @@ def demo(question):
                          f"{format_instructions}, 使用台灣語言")
 
     return response
-if __name__ == "__main__":
-    generate_hw01("2024年台灣10月紀念日有哪些?")
+#if __name__ == "__main__":
+#    generate_hw01("2024年台灣10月紀念日有哪些?")
