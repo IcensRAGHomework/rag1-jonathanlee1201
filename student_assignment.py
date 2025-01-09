@@ -34,6 +34,7 @@ def generate_hw01(question):
     response = llm.invoke(question+"請用json的格式輸出, 請附\"date\" and \"name\"的標籤, 放在Result的攔位裡"
                          f"{format_instructions}, 使用台灣語言")
     print(response.content)
+    pass
     
 def generate_hw02(question):
     pass
@@ -64,7 +65,4 @@ def demo(question):
                          f"{format_instructions}, 使用台灣語言")
 
     return response
-if (__name__) == '__main__':
-    #print(format_instructions)
-    response = demo('2022年台灣6月紀念日有哪些?')
-    print(response.content)
+
