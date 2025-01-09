@@ -34,8 +34,8 @@ def generate_hw01(question):
     response = llm.invoke(question+"請用json的格式輸出, 請附\"date\" and \"name\"的標籤, 放在Result的攔位裡, 只顯示包含Result之後的攔位內容就好,\
     不要顯示'''json字串"
                          f"{format_instructions}, 使用台灣語言")
-    print(response.content)
-    pass
+    #print(response.content)
+    return response.content
     
 def generate_hw02(question):
     pass
